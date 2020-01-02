@@ -1,0 +1,20 @@
+PODS:
+  - GoogleWebRTC (1.1.27828)
+  - SIOSocket (0.2.0)
+
+DEPENDENCIES:
+  - GoogleWebRTC
+  - SIOSocket
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleWebRTC
+    - SIOSocket
+
+SPEC CHECKSUMS:
+  GoogleWebRTC: 55e46bee9ac2a4961542e9571bea589b64493f45
+  SIOSocket: 2facc0bd02ae72d98c223634a46dd8ebdf9be321
+
+PODFILE CHECKSUM: f276593f6134b3c43e4aca69d1cc782690f51c15
+
+COCOAPODS: 1.6.0

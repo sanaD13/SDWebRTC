@@ -1,0 +1,6 @@
+framework module Pods_SDWebRTC {
+  umbrella header "Pods-SDWebRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}
