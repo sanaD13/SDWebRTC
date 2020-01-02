@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189D3AE6750E655097BFF216 /* Pods_SDWebRTCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642EB2FF646C4CECB14E282F /* Pods_SDWebRTCTests.framework */; };
+		767D9927BCFD546DC834ABB5 /* Pods_SDWebRTCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416FD28AAEF906A2E56C2652 /* Pods_SDWebRTCUITests.framework */; };
 		9202AD9523B86BE300D3D926 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9202AD9423B86BE300D3D926 /* AppDelegate.m */; };
 		9202AD9823B86BE300D3D926 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9202AD9723B86BE300D3D926 /* SceneDelegate.m */; };
 		9202AD9B23B86BE300D3D926 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9202AD9A23B86BE300D3D926 /* ViewController.m */; };
@@ -16,6 +18,8 @@
 		9202ADA623B86BE500D3D926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9202ADA523B86BE500D3D926 /* main.m */; };
 		9202ADB023B86BE500D3D926 /* SDWebRTCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9202ADAF23B86BE500D3D926 /* SDWebRTCTests.m */; };
 		9202ADBB23B86BE500D3D926 /* SDWebRTCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9202ADBA23B86BE500D3D926 /* SDWebRTCUITests.m */; };
+		92D31C3123B86FAE00285F0E /* WebRTC in Resources */ = {isa = PBXBuildFile; fileRef = 92D31C3023B86FAE00285F0E /* WebRTC */; };
+		92D31C3A23B8800900285F0E /* Pods_SDWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FA240983B6F0034E3CBF66 /* Pods_SDWebRTC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A988FF8CFB3CE1BD6E3AB08 /* Pods-SDWebRTCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebRTCTests.debug.xcconfig"; path = "Target Support Files/Pods-SDWebRTCTests/Pods-SDWebRTCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		416FD28AAEF906A2E56C2652 /* Pods_SDWebRTCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebRTCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439BCA0916A15CBD98EA8EE9 /* Pods-SDWebRTCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebRTCUITests.release.xcconfig"; path = "Target Support Files/Pods-SDWebRTCUITests/Pods-SDWebRTCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51AC165ACF8D9BDF06131E54 /* Pods-SDWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebRTC.debug.xcconfig"; path = "Target Support Files/Pods-SDWebRTC/Pods-SDWebRTC.debug.xcconfig"; sourceTree = "<group>"; };
+		642EB2FF646C4CECB14E282F /* Pods_SDWebRTCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebRTCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C29DEDCCB0A8C622EC640E /* Pods-SDWebRTCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebRTCUITests.debug.xcconfig"; path = "Target Support Files/Pods-SDWebRTCUITests/Pods-SDWebRTCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD088A6ED58CF7A4CD4BD1B /* Pods-SDWebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebRTC.release.xcconfig"; path = "Target Support Files/Pods-SDWebRTC/Pods-SDWebRTC.release.xcconfig"; sourceTree = "<group>"; };
 		9202AD9023B86BE300D3D926 /* SDWebRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9202AD9323B86BE300D3D926 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9202AD9423B86BE300D3D926 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +65,10 @@
 		9202ADB623B86BE500D3D926 /* SDWebRTCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDWebRTCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9202ADBA23B86BE500D3D926 /* SDWebRTCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebRTCUITests.m; sourceTree = "<group>"; };
 		9202ADBC23B86BE500D3D926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D31C3023B86FAE00285F0E /* WebRTC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebRTC; sourceTree = "<group>"; };
+		92D31C3223B87C3900285F0E /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Pods/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		A0FA240983B6F0034E3CBF66 /* Pods_SDWebRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D912E462A7BACFA596D8F3 /* Pods-SDWebRTCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebRTCTests.release.xcconfig"; path = "Target Support Files/Pods-SDWebRTCTests/Pods-SDWebRTCTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D31C3A23B8800900285F0E /* Pods_SDWebRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189D3AE6750E655097BFF216 /* Pods_SDWebRTCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767D9927BCFD546DC834ABB5 /* Pods_SDWebRTCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5177555194E7F5A717FCB518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51AC165ACF8D9BDF06131E54 /* Pods-SDWebRTC.debug.xcconfig */,
+				7AD088A6ED58CF7A4CD4BD1B /* Pods-SDWebRTC.release.xcconfig */,
+				3A988FF8CFB3CE1BD6E3AB08 /* Pods-SDWebRTCTests.debug.xcconfig */,
+				F3D912E462A7BACFA596D8F3 /* Pods-SDWebRTCTests.release.xcconfig */,
+				70C29DEDCCB0A8C622EC640E /* Pods-SDWebRTCUITests.debug.xcconfig */,
+				439BCA0916A15CBD98EA8EE9 /* Pods-SDWebRTCUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		534D722F0079F207E9A2E5FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D31C3223B87C3900285F0E /* WebRTC.framework */,
+				A0FA240983B6F0034E3CBF66 /* Pods_SDWebRTC.framework */,
+				642EB2FF646C4CECB14E282F /* Pods_SDWebRTCTests.framework */,
+				416FD28AAEF906A2E56C2652 /* Pods_SDWebRTCUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9202AD8723B86BE300D3D926 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +130,8 @@
 				9202ADAE23B86BE500D3D926 /* SDWebRTCTests */,
 				9202ADB923B86BE500D3D926 /* SDWebRTCUITests */,
 				9202AD9123B86BE300D3D926 /* Products */,
+				5177555194E7F5A717FCB518 /* Pods */,
+				534D722F0079F207E9A2E5FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +148,7 @@
 		9202AD9223B86BE300D3D926 /* SDWebRTC */ = {
 			isa = PBXGroup;
 			children = (
+				92D31C3023B86FAE00285F0E /* WebRTC */,
 				9202AD9323B86BE300D3D926 /* AppDelegate.h */,
 				9202AD9423B86BE300D3D926 /* AppDelegate.m */,
 				9202AD9623B86BE300D3D926 /* SceneDelegate.h */,
@@ -144,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9202ADBF23B86BE500D3D926 /* Build configuration list for PBXNativeTarget "SDWebRTC" */;
 			buildPhases = (
+				9354D6A49737465D2EBE54E5 /* [CP] Check Pods Manifest.lock */,
 				9202AD8C23B86BE300D3D926 /* Sources */,
 				9202AD8D23B86BE300D3D926 /* Frameworks */,
 				9202AD8E23B86BE300D3D926 /* Resources */,
+				ED0210A9CCE861EF814DC8F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9202ADC223B86BE500D3D926 /* Build configuration list for PBXNativeTarget "SDWebRTCTests" */;
 			buildPhases = (
+				B9FA43AEE5BF97B483FAC548 /* [CP] Check Pods Manifest.lock */,
 				9202ADA723B86BE500D3D926 /* Sources */,
 				9202ADA823B86BE500D3D926 /* Frameworks */,
 				9202ADA923B86BE500D3D926 /* Resources */,
@@ -179,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9202ADC523B86BE500D3D926 /* Build configuration list for PBXNativeTarget "SDWebRTCUITests" */;
 			buildPhases = (
+				9D12B629E3EF488E76F617D4 /* [CP] Check Pods Manifest.lock */,
 				9202ADB223B86BE500D3D926 /* Sources */,
 				9202ADB323B86BE500D3D926 /* Frameworks */,
 				9202ADB423B86BE500D3D926 /* Resources */,
@@ -241,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9202ADA323B86BE500D3D926 /* LaunchScreen.storyboard in Resources */,
+				92D31C3123B86FAE00285F0E /* WebRTC in Resources */,
 				9202ADA023B86BE500D3D926 /* Assets.xcassets in Resources */,
 				9202AD9E23B86BE300D3D926 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +311,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9354D6A49737465D2EBE54E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDWebRTC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D12B629E3EF488E76F617D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDWebRTCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FA43AEE5BF97B483FAC548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDWebRTCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0210A9CCE861EF814DC8F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDWebRTC/Pods-SDWebRTC-frameworks.sh",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+				"${BUILT_PRODUCTS_DIR}/SIOSocket/SIOSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SIOSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDWebRTC/Pods-SDWebRTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9202AD8C23B86BE300D3D926 /* Sources */ = {
@@ -437,15 +580,21 @@
 		};
 		9202ADC023B86BE500D3D926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AC165ACF8D9BDF06131E54 /* Pods-SDWebRTC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGS34P736P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleWebRTC/Frameworks/frameworks",
+				);
 				INFOPLIST_FILE = SDWebRTC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sanadesai.SDWebRTC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanadesai.SDWebRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,15 +602,21 @@
 		};
 		9202ADC123B86BE500D3D926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD088A6ED58CF7A4CD4BD1B /* Pods-SDWebRTC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGS34P736P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleWebRTC/Frameworks/frameworks",
+				);
 				INFOPLIST_FILE = SDWebRTC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sanadesai.SDWebRTC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanadesai.SDWebRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +624,7 @@
 		};
 		9202ADC323B86BE500D3D926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A988FF8CFB3CE1BD6E3AB08 /* Pods-SDWebRTCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +644,7 @@
 		};
 		9202ADC423B86BE500D3D926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D912E462A7BACFA596D8F3 /* Pods-SDWebRTCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +664,7 @@
 		};
 		9202ADC623B86BE500D3D926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C29DEDCCB0A8C622EC640E /* Pods-SDWebRTCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SDWebRTCUITests/Info.plist;
@@ -524,6 +682,7 @@
 		};
 		9202ADC723B86BE500D3D926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439BCA0916A15CBD98EA8EE9 /* Pods-SDWebRTCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SDWebRTCUITests/Info.plist;
